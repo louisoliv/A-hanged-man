@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    background-color: cyan;
+    width: auto;
+    height: 100%;
+    
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.game {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* .title-name {
+    background-color: yellow;
+} */
+
+.explaination {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
+
+.Hanged_Man_Container {
+    background-color: orange;
+}
+
+.box_container {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    width: 60vw;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border: solid;
+}
+
+#clavier {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); /* 10 columns */
+    gap: 10px; /* optional: space between the letters */
+    justify-content: center;
+    background-color: orchid;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.key {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    border: solid;
+    cursor: pointer;
+    font-size: 24px; /* optional: adjust the font size */
+}
+
+
+#mot {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+
+
+
+
+/* .button_div {
+    background-color: beige;
+} */
+
+#otherWord {
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+}
