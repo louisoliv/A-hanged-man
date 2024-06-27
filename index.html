@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script defer src="./word-list.js"></script>
     <script defer src="./script.js"></script>
+
     <title>A Hanged Man</title>
   </head>
   <body>
@@ -17,29 +19,18 @@
       </div>
     </div>
     <div class="container">
-      <h1>Jeu du pendu - JavaScript / Html / CSS</h1>
+      <h1>Hangman game - JavaScript / Html / CSS</h1>
       <div class="game">
         <!-- <div class="title-name">
                 Hanged Man
             </div> -->
-        <div class="explaination">
-          BlablaBlablaBlablaBlablaBlablaBlablaBlabla
-        </div>
         <div class="Hanged_Man_Container">
           <div class="box_container">
             <img id="image_hanged" src="../images/hangman-0.svg" alt="" />
           </div>
         </div>
         <div class="game-box">
-          <ul class="word-display">
-            <li class="letter guessed">a</li>
-            <li class="letter"></li>
-            <li class="letter"></li>
-            <li class="letter"></li>
-            <li class="letter"></li>
-            <li class="letter"></li>
-            <li class="letter"></li>
-          </ul>
+          <ul class="word-display"></ul>
           <h4 class="hint-text">
             Hint :
             <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit</b>
@@ -48,25 +39,9 @@
             Incorrect guesses :
             <b>0/6</b>
           </h4>
-          <div class="keyboard">
-            <button>a</button>
-            <button>b</button> <button>c</button> <button>d</button>
-            <button>e</button> <button>f</button> <button>g</button>
-            <button>h</button> <button>i</button> <button>j</button>
-            <button>k</button> <button>l</button> <button>m</button>
-            <button>n</button> <button>o</button> <button>p</button>
-            <button>q</button> <button>r</button> <button>s</button>
-            <button>t</button> <button>u</button> <button>v</button>
-            <button>w</button> <button>x</button> <button>y</button>
-            <button>z</button>
-          </div>
+          <div class="keyboard"></div>
         </div>
-
-        <di class="button_div">
-          <button type="submit" id="otherWord">Autre mot ?</button>
-        </di>
       </div>
-      <div class="change_themes">Themes</div>
     </div>
   </body>
 </html>
